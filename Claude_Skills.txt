@@ -1,0 +1,37 @@
+ /start
+                                                                                                                                                                 
+  세션 시작 시 이전 진행기록을 복원
+  /start           - 기본 실행 (최신 2-3개 요약)
+  /start all       - 전체 진행기록 요약
+  /start [N]       - 최신 N개 진행기록 요약
+
+  /compare
+
+  원본(ChaosYut_DM)과 현재 프로젝트 비교
+  /compare              - 전체 프로젝트 비교
+  /compare [blueprint]  - 특정 Blueprint 비교
+  /compare all          - 모든 Blueprint 상세 비교
+
+  /rules
+
+  카오스 윷놀이 규칙 빠른 참조
+  /rules              - 전체 규칙 요약
+  /rules basic        - 기본 규칙
+  /rules items        - 아이템 목록
+  /rules [아이템명]    - 특정 아이템 효과
+  /rules special      - 특수 규칙
+
+  /find-bp
+
+  Blueprint 에셋 검색
+  /find-bp              - 모든 Blueprint 목록
+  /find-bp [검색어]     - 검색어로 필터링
+  /find-bp --size       - 크기순 정렬
+  /find-bp --recent     - 최근 수정순 정렬
+
+  /structure
+
+  프로젝트 구조 파악
+  /structure            - 프로젝트 구조 요약
+  /structure --detailed - 상세 구조
+  /structure --content  - Content 폴더만
